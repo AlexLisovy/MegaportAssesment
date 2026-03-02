@@ -146,6 +146,30 @@ public class GetLocationsV2Test {
 
     }
 
+    @Test(groups = {"smoke"})
+    public void getMultupleLocationsStatuses_Active_Extended_Deployment(){
+
+        Map<String, Object> params = new HashMap<>();
+        params.put("locationStatuses", List.of(Active.name(), Extended.name(), Deployment.name()));
+
+        GetLocationsV2ResponseModel getLocationsV2ResponseModel = locationsV2Service
+                .getLocations(params)
+                .shouldHave(statusCode(200))
+                .responseAs(GetLocationsV2ResponseModel.class);
+
+        Set<String> allowedStatuses = Set.of(Active.name(), Extended.name(), Deployment.name());
+
+        getLocationsV2ResponseModel.getData().forEach(loc ->
+                Assert.assertTrue(
+                        allowedStatuses.contains(loc.getStatus()),
+                        "Wrong status for id=" + loc.getId()
+                                + ". Expected one of " + allowedStatuses
+                                + ", but was '" + loc.getStatus() + "'"
+                )
+        );
+
+    }
+
 
 
 

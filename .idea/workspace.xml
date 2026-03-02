@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23573c35-973d-479c-bf44-755fbc41e3f1" name="Changes" comment="GetLocationsV2Test - locationStatuses finished">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/megaport/api/services/locationsV2Services/LocationsV2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/services/locationsV2Services/LocationsV2Service.java" afterDir="false" />
+    <list default="true" id="23573c35-973d-479c-bf44-755fbc41e3f1" name="Changes" comment="GetLocationsV2Test - Test Run issues">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/locationsV2/GetLocationsV2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/locationsV2/GetLocationsV2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1772430658110</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GetLocationsV2Test - Test Run issues">
+      <created>1772430774852</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772430774852</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +178,7 @@
     <MESSAGE value="Initialization - conditions" />
     <MESSAGE value="Added: models, properties, services. Initialization for GetLocationsV2Test" />
     <MESSAGE value="GetLocationsV2Test - locationStatuses finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="GetLocationsV2Test - locationStatuses finished" />
+    <MESSAGE value="GetLocationsV2Test - Test Run issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetLocationsV2Test - Test Run issues" />
   </component>
 </project>
