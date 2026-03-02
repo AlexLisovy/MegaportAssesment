@@ -33,6 +33,7 @@ public class LocationsV2Service extends SetupApiService {
     public AssertableResponse getLocations(Map<String, Object> queryParams) {
 
         // 1) Filter out nulls and blank strings
+        // TODO: Improve Map and make it more readable
         Map<String, Object> filteredParams = queryParams.entrySet().stream()
                 .filter(e -> e.getValue() != null)
                 .filter(e -> {
