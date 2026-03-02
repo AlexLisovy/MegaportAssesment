@@ -1,4 +1,4 @@
-package com.locationsV2;
+package com.megaport.api.locationsV2;
 
 import com.megaport.api.models.getLocationsV2Model.response.GetLocationsV2ResponseModel;
 import com.megaport.api.properties.enumProp.LocationStatuses;
