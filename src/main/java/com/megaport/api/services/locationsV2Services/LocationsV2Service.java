@@ -11,19 +11,6 @@ import java.util.stream.Collectors;
 
 public class LocationsV2Service extends SetupApiService {
 
-//    @Step("GET Locations V2")
-//    public AssertableResponse getLocations() {
-//        Response response =
-//                baseSetupHeaders()
-//                        .when()
-//                        .get("/v2/locations")
-//                        .then()
-//                        .extract()
-//                        .response();
-//
-//        return new AssertableResponse(response);
-//    }
-
     @Step("GET Locations V2")
     public AssertableResponse getLocations() {
         return getLocations(Collections.emptyMap());
