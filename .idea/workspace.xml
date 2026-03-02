@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23573c35-973d-479c-bf44-755fbc41e3f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/conditions/BodyFieldCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/conditions/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/conditions/Conditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/conditions/ContentTypeCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/conditions/StatusCodeCondition.java" afterDir="false" />
+    <list default="true" id="23573c35-973d-479c-bf44-755fbc41e3f1" name="Changes" comment="Initialization - conditions">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/AssertableResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/Dc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/DetailsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/DiversityZones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/GetLocationsV2ResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/Mcr2Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/MegaportItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/MveItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/models/getLocationsV2Model/response/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/properties/BaseUrlLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/services/SetupApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megaport/api/services/locationsV2Services/LocationsV2Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/locationsV2/GetLocationsV2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +52,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="GetLocationsV2Test.getSingleStatusActive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MegaportAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.locationsV2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.locationsV2" />
+      <option name="MAIN_CLASS_NAME" value="com.locationsV2.GetLocationsV2Test" />
+      <option name="METHOD_NAME" value="getSingleStatusActive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GetLocationsV2Test.getSingleStatusActive" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1772423543195</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initialization - conditions">
+      <created>1772424172169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772424172169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialization - conditions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialization - conditions" />
   </component>
 </project>
